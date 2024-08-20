@@ -1,5 +1,23 @@
 # Change Log
 
+## 3.0.0
+
+### Minor Changes
+
+- 7f24a66: Vue NodeViews now listen for changes to selections and re-render when the selection is actually over the nodeview
+
+### Patch Changes
+
+- 7f24a66: Update the Typescript types for NodeViews, bringing them inline with there actual implementation
+- Updated dependencies [97ea55f]
+- Updated dependencies [bd34793]
+- Updated dependencies [7f24a66]
+- Updated dependencies [97ea55f]
+  - @tiptap/core@3.0.0
+  - @tiptap/pm@3.0.0
+  - @tiptap/extension-bubble-menu@3.0.0
+  - @tiptap/extension-floating-menu@3.0.0
+
 ## 2.6.4
 
 ### Patch Changes

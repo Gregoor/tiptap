@@ -1,5 +1,18 @@
 # Change Log
 
+## 3.0.0
+
+### Minor Changes
+
+- 97ea55f: Fixes #5490. The `preventClearDocument` meta tag can now be used to prevent the `clearDocument` plugin in the core keymap extension from modifying transactions that appear to clear the document (but might be clearing it for other reasons).
+- 97ea55f: An object can now be passed to `enableCoreExtensions` to allow disabling only specific core extensions.
+
+### Patch Changes
+
+- 7f24a66: Update the Typescript types for NodeViews, bringing them inline with there actual implementation
+- Updated dependencies [bd34793]
+  - @tiptap/pm@3.0.0
+
 ## 2.6.4
 
 ### Patch Changes
